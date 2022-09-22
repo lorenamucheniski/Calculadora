@@ -1,6 +1,8 @@
 # Calculadora
 Calculadora básica desenvolvida em Python.
 
+![](imagens/calculadora.png)
+
 ## 1. Etapas
 O projeto da calculadora foi separado em algumas etapas para poder ser devidamente otimizado e direcionado segundo os esforços necessários a cada fase.
 
@@ -30,5 +32,21 @@ As cores utilizadas para a nossa calculadora podem ser encontradas diretamente n
 
 ## 4. Criando frames 
 Um frame é uma janela com propriedades adicionais que a habilitam a ter uma "vida independente" no sistema de janelas gráficas. Para que um frame seja apresentado pela aplicação, um objeto desse tipo de classe deve ser criado e algumas de suas propriedades básicas -- tais como sua dimensão e o fato de estar visível -- devem ser estabelecidas.
+
+Para a calculadora foram criadas duas frames, uma para exibir a tela com as operações e resultados, e outra para exibir os botões com os números e operadores.
+
+## 5. Criando botões
+
+Para cada botão foi nescessário uma variável o identificando. Definimos então:
+
+- A qual frame ele pertenceria;
+- A ação que seria executada ao clica-lo;
+- Seu texto;
+- Largura(width) e altura(height);
+- Cor de fundo(bg);
+- Tipo e estilo da fonte;
+- Relevo e seu estilo(relief);
+
+
 
 
