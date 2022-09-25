@@ -30,6 +30,8 @@ As cores utilizadas para a nossa calculadora podem ser encontradas diretamente n
 
 ![](imagens/cores.png)
 
+Para cada cor foi criada uma variável, para facilitar na hora da definição de cores.
+
 ## 4. Criando frames 
 Um frame é uma janela com propriedades adicionais que a habilitam a ter uma "vida independente" no sistema de janelas gráficas. Para que um frame seja apresentado pela aplicação, um objeto desse tipo de classe deve ser criado e algumas de suas propriedades básicas -- tais como sua dimensão e o fato de estar visível -- devem ser estabelecidas.
 
@@ -46,6 +48,12 @@ Para cada botão foi nescessário uma variável o identificando. Definimos entã
 - Cor de fundo(bg);
 - Tipo e estilo da fonte;
 - Relevo e seu estilo(relief);
+
+## 6. Criando Funções
+
+Uma função é uma sequência de comandos que executa alguma tarefa e que tem um nome. A sua principal finalidade é nos ajudar a organizar programas em pedaços que correspondam a como imaginamos uma solução do problema. Pode ser inventado qualquer nome para as funções criadas, exceto os nomes que são uma palavra reservada em Python, e esses nomes devem seguir a regra de identificadores permitidos. 
+
+Para a calculadora foram criadas as funções para entrada dos valores na nossa frame, para o cálculo e para limpar a tela após as operações realizadas.
 
 
 
