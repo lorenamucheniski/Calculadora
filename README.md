@@ -55,6 +55,7 @@ Uma função é uma sequência de comandos que executa alguma tarefa e que tem u
 
 Para a calculadora foram criadas as funções para entrada dos valores na nossa frame, para o cálculo e para limpar a tela após as operações realizadas.
 
+![](imagens/funcoes.png)
 
 
 
